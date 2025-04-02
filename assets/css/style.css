@@ -1,0 +1,111 @@
+html, body, .tooltip, .popover {
+  font-family: Verdana;
+}
+
+.cabecera {
+  height: 400px;
+  background-image: url("../img//cabecera\ copia.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.about p {
+  text-align: justify;
+}
+
+.editorial {
+  padding-left: 200px;
+}
+
+ul {
+  padding-left: 250px;
+}
+
+.slider-wrapper {
+  width: 406px;
+  height: 566px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.slider-wrapper .before,
+.slider-wrapper .after{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.slider-wrapper .content-image {
+  height: 100%;
+}
+
+.slider-wrapper .after {
+  width: 125px;
+}
+
+.slider-wrapper .scroller {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background-color: transparent;
+  opacity: 0.9;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.slider-wrapper .scroller:hover {
+  opacity: 1;
+}
+
+.slider-wrapper .scrolling {
+  pointer-events: none;
+  opacity: 1;
+}
+
+.slider-wrapper .scroller__thumb {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+}
+
+.slider-wrapper .scroller:before,
+.slider-wrapper .scroller:after {
+  content: " ";
+  display: block;
+  width: 7px;
+  height: 9999px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3.5px;
+  z-index: 30;
+  transition: 0.1s;
+}
+.slider-wrapper .scroller:before {
+  top: 100%;
+}
+.slider-wrapper .scroller:after {
+  bottom: 100%;
+}
+
+.slider-wrapper .scroller {
+  border: 5px solid rgb(0, 0, 0);
+}
+
+.slider-wrapper .scroller:before,
+.slider-wrapper .scroller:after {
+  background: rgb(0, 0, 0);
+}
