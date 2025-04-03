@@ -4,9 +4,10 @@ html, body, .tooltip, .popover {
 
 .cabecera {
   height: 400px;
-  background-image: url("../img//cabecera\ copia.png");
+  background-image: url("../img/cabecera.JPG");
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .about p {
