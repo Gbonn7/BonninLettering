@@ -1,5 +1,6 @@
 html, body, .tooltip, .popover {
   font-family: Verdana;
+  scroll-behavior: smooth;
 }
 
 .cabecera {
