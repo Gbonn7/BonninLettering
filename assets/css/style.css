@@ -19,8 +19,17 @@ html, body, .tooltip, .popover {
   padding-left: 200px;
 }
 
+h4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 ul {
   padding-left: 250px;
+}
+
+.spaced-list li {
+  margin-bottom: 10px; 
 }
 
 .noselect {
